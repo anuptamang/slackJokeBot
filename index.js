@@ -1,6 +1,6 @@
 const SlackBot = require('slackbots');
 const axios = require('axios');
-const SlackBotToken = 'slack_bot_token_id';
+const SlackBotToken = 'slack_bot_token_id'; // need to get his unique token_id and change here
 
 const bot = new SlackBot({
     token: SlackBotToken,
